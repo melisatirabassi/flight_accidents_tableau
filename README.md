@@ -4,11 +4,13 @@ Se realizo el análisis exploratorio del dataset AccidentesAviones.csv, que cont
 
 ![Captura de pantalla 2023-05-24 a la(s) 12 01 26](https://github.com/santivalor/labs_2/assets/119902985/e1fd9e63-13b7-49f6-985b-e762136c4f4c)
 
-   # EDA
+# EDA
 
 Se cambia el tipo de dato de algunas de las columnas ya que todas eran strings. Se obtienen columnas numéricas y de fechas según sea el caso.
 A continuación, se detallan los pasos que se siguieron para realizar el EDA en JupyterLab del dataset AccidentesAviones.csv:
+
 -Visualización de dataset: se observan las primeras 5 filas, se extrae la cantidad de filas y columnas, los nombres de las columnas y el tipo de dato por columna.
+
 -Se cambia el carácter “?” por valores nulos.
 -Se observa la cantidad de nulos por columnas.
 -Se cambia el tipo de dato de algunas de las columnas ya que todas eran strings. Se obtienen columnas numéricas y de fechas según sea el caso.
@@ -21,10 +23,8 @@ A continuación, se detallan los pasos que se siguieron para realizar el EDA en 
 -Se exporta el nuevo dataframe en formato csv para ser utilizado en Tableau Public.
 -Se exportan las filas eliminadas para corroborar que la mayoría de ellas no afecte la visualización de los últimos 5 años.
 
-![Captura de pantalla 2023-05-24 a la(s) 12 47 53](https://github.com/santivalor/labs_2/assets/119902985/59b0df52-e934-4693-8fca-8ef87b467ec5)
 
-
-   # Tableu Public 
+# Tableu Public 
 
 Para realizar la visualización de los datos se utilizo Tableau Public. En el siguiente link se encuentra el tablero:
 
