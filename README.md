@@ -1,7 +1,10 @@
-# labs_2
+# Visualizacion en Tableau de accidentes aereos
+
 Se realizo el análisis exploratorio del dataset AccidentesAviones.csv, que contiene información de los accidentes aéreos, con JupyterLab y luego se hizo un tablero con Tableau Public.
 
 ![Captura de pantalla 2023-05-24 a la(s) 12 01 26](https://github.com/santivalor/labs_2/assets/119902985/e1fd9e63-13b7-49f6-985b-e762136c4f4c)
+
+# EDA
 
 Se cambia el tipo de dato de algunas de las columnas ya que todas eran strings. Se obtienen columnas numéricas y de fechas según sea el caso.
 A continuación, se detallan los pasos que se siguieron para realizar el EDA en JupyterLab del dataset AccidentesAviones.csv:
@@ -20,9 +23,12 @@ Se exportan las filas eliminadas para corroborar que la mayoría de ellas no afe
 
 ![Captura de pantalla 2023-05-24 a la(s) 12 47 53](https://github.com/santivalor/labs_2/assets/119902985/59b0df52-e934-4693-8fca-8ef87b467ec5)
 
+
+# Tableu Public 
+
 Para realizar la visualización de los datos se utilizo Tableau Public. En el siguiente link se encuentra el tablero:
 
-https://public.tableau.com/app/profile/santiago.valor/viz/tablero_accidentes_aereos/Analisis?publish=yes
+XXX
 
 Al usar Tableau Public solo se pudo importar los datos limpios en formato csv. El tablero consta de una portada y una hoja de visualización.
 En el tablero se encuentra la siguiente información:
@@ -35,10 +41,8 @@ Gráfico desplegable de cantidad de accidentes por route-operadora-tipo de avió
 Gráfico histórico de cantidad de accidentes y fallecidos totales. Tooltip de cantidad de personas a bordo y cantidad de fallecidos.
 Filtro para visualizar los dos gráficos según el rango de fechas elegido por el usuario.
 
-![Captura de pantalla 2023-05-24 a la(s) 12 52 22](https://github.com/santivalor/labs_2/assets/119902985/bca9541d-9a2a-4f2a-bc78-843189ecd2b3)
 
-En base a los análisis de los gráficos se puede concluir lo siguiente:
-Análisis histórico: A partir del 2008 la cantidad de accidentes anuales disminuyo por debajo de 50. El accidente con mayor cantidad de fallecidos se registro en 2001. Existe un gran numero de accidentes ocurridos en training en bases militares.   
+   
 
 
 
