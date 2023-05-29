@@ -1,4 +1,4 @@
-# Visualizacion en Tableau de accidentes aereos
+# Visualizacion en Tableau Public de Accidentes Aereos
 
 Se realizo el análisis exploratorio del dataset AccidentesAviones.csv, que contiene información de los accidentes aéreos, con JupyterLab y luego se hizo un tablero con Tableau Public.
 
