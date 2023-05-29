@@ -12,15 +12,25 @@ A continuación, se detallan los pasos que se siguieron para realizar el EDA en 
 -Visualización de dataset: se observan las primeras 5 filas, se extrae la cantidad de filas y columnas, los nombres de las columnas y el tipo de dato por columna.
 
 -Se cambia el carácter “?” por valores nulos.
+
 -Se observa la cantidad de nulos por columnas.
+
 -Se cambia el tipo de dato de algunas de las columnas ya que todas eran strings. Se obtienen columnas numéricas y de fechas según sea el caso.
+
 -Se observa la cantidad de nulos por columna
+
 -Se decide no utilizar las columnas con mayores cantidades de valores de nulos
+
 -Se eliminan algunas filas con valores nulos de las columnas numéricas, sabiendo que eso puede afectar levemente los indicadores a visualizar luego en el tablero.
+
 -Los valores nulos de las columnas tipo object se cambian por el string “sin_dato”.
+
 -Se crean histogramas para visualizar el top 10 de las ruta, operadores y tipos de avión con mayor cantidad de accidentes aéreos, fallecidos en el avión y fallecidos en tierra.
+
 -Se crean gráficos de líneas históricos con la cantidad de accidentes aéreos, fallecidos en el avión y fallecidos en tierra.
+
 -Se exporta el nuevo dataframe en formato csv para ser utilizado en Tableau Public.
+
 -Se exportan las filas eliminadas para corroborar que la mayoría de ellas no afecte la visualización de los últimos 5 años.
 
 
@@ -33,11 +43,16 @@ XXX
 Al usar Tableau Public solo se pudo importar los datos limpios en formato csv. El tablero consta de una portada y una hoja de visualización.
 En el tablero se encuentra la siguiente información:
 KPIs: evalúan el año en curso vs el año anterior. Sin tomar en cuenta que el año actual puede no haber terminado.
-Tasa de mortalidad: objetivo de reducir en 5% la tasa de mortalidad a nivel anual, siendo el número de fallecidos en los accidentes. aéreos respecto al total de personas en los vuelos involucrados
-Tiempo en accidentes: se pretende mantener el tiempo promedio anual entre accidentes consecutivos mayor a 40 días.
-Cantidad de accidentes: objetivo de reducir la cantidad de accidentes anual en 10%
-Daño colateral: mantener la cantidad anual de fallecidos en tierra (personas no presentes en los vuelos) en 0.
-Gráfico desplegable de cantidad de accidentes por route-operadora-tipo de avión. Tooltip de cantidad de accidentes por operadora y tipo de avion.
+
+-Tasa de mortalidad: objetivo de reducir en 5% la tasa de mortalidad a nivel anual, siendo el número de fallecidos en los accidentes. aéreos respecto al total de personas en los vuelos involucrados
+
+-Tiempo en accidentes: se pretende mantener el tiempo promedio anual entre accidentes consecutivos mayor a 40 días.
+
+-Cantidad de accidentes: objetivo de reducir la cantidad de accidentes anual en 10%
+
+-Daño colateral: mantener la cantidad anual de fallecidos en tierra (personas no presentes en los vuelos) en 0.
+
+Gráfico de cantidad de accidentes por route-operadora-tipo de avión.
 Gráfico histórico de cantidad de accidentes y fallecidos totales. Tooltip de cantidad de personas a bordo y cantidad de fallecidos.
 Filtro para visualizar los dos gráficos según el rango de fechas elegido por el usuario.
 
