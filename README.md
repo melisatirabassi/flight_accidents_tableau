@@ -38,7 +38,7 @@ A continuación, se detallan los pasos que se siguieron para realizar el EDA en 
 
 Para realizar la visualización de los datos se utilizo Tableau Public. En el siguiente link se encuentra el tablero:
 
-https://public.tableau.com/app/profile/melisa.tirabassi/viz/Dashboard_Accidentes_Aereos/Dashboard?publish=yes
+https://public.tableau.com/app/profile/melisa.tirabassi/viz/Dashboard_Accidentes_Aereos/Dashboard
 
 Al usar Tableau Public solo se pudo importar los datos limpios en formato csv. El tablero consta de una portada y una hoja de visualización.
 En el tablero se encuentra la siguiente información:
