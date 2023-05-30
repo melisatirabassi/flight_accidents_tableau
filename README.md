@@ -38,7 +38,7 @@ A continuación, se detallan los pasos que se siguieron para realizar el EDA en 
 
 Para realizar la visualización de los datos se utilizo Tableau Public. En el siguiente link se encuentra el tablero:
 
-XXX
+https://public.tableau.com/app/profile/melisa.tirabassi/viz/Dashboard_Accidentes_Aereos/Dashboard?publish=yes
 
 Al usar Tableau Public solo se pudo importar los datos limpios en formato csv. El tablero consta de una portada y una hoja de visualización.
 En el tablero se encuentra la siguiente información:
@@ -55,6 +55,9 @@ KPIs: evalúan el año en curso vs el año anterior. Sin tomar en cuenta que el 
 Gráfico de cantidad de accidentes por route-operadora-tipo de avión.
 Gráfico histórico de cantidad de accidentes y fallecidos totales. Tooltip de cantidad de personas a bordo y cantidad de fallecidos.
 Filtro para visualizar los dos gráficos según el rango de fechas elegido por el usuario.
+
+<img width="1434" alt="Captura de pantalla 2023-05-25 a la(s) 15 42 23" src="https://github.com/melisatirabassi/flight_accidents_tableau/assets/124107756/ce220137-5941-4594-8e6f-4c1dfcccd73d">
+
 
 
    
