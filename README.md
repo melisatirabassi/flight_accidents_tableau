@@ -56,7 +56,8 @@ Gráfico de cantidad de accidentes por route-operadora-tipo de avión.
 Gráfico histórico de cantidad de accidentes y fallecidos totales. Tooltip de cantidad de personas a bordo y cantidad de fallecidos.
 Filtro para visualizar los dos gráficos según el rango de fechas elegido por el usuario.
 
-<img width="1434" alt="Captura de pantalla 2023-05-29 a la(s) 21 50 47" src="https://github.com/melisatirabassi/flight_accidents_tableau/assets/124107756/bd36c5a9-c801-49a1-8dfe-e647d7aaad20">
+
+<img width="1434" alt="Captura de pantalla 2023-05-29 a la(s) 22 16 05" src="https://github.com/melisatirabassi/flight_accidents_tableau/assets/124107756/b844a1a4-456d-4e71-b594-553a9fcd770e">
 
 
 
